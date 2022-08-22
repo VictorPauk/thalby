@@ -320,5 +320,7 @@ header .logo{
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
-
+}
+.text-align{
+    text-align: right;
 }
