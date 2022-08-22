@@ -113,3 +113,212 @@ header .logo{
 .people .description{
     max-width: 498px;
 }
+.main{
+    padding-top: 60px;
+    padding-bottom: 248px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.text h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.text p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.text p:first-of-type{
+    margin-bottom: 47px;
+    max-width: 632px;
+}
+.text p:last-of-type{
+    margin-bottom: 88px;
+}
+.best_sellers_text{
+    max-width: 1064px;
+}
+.best_sellers_text h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.guide h3:first-of-type{
+    margin: auto;
+    width:156px;
+    margin-top:27px;
+    margin-bottom: 17px;
+}
+.best_sellers{
+    max-width: 1064px;
+}
+.guide p{
+    margin-bottom:10px;
+}
+.best_sellers h3:first-of-type{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.best_sellers p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.best_sellers a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.text-center{
+    text-align: center;
+}
+.people .description h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.people .description p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.people .description a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.culture{
+    background-color:rgba(204, 204, 204, 0.6);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.justify-right{
+    justify-content: flex-end;
+}
+.culture .for_img{
+    max-width: 385px;
+    margin-left:50px;
+}
+.culture .for_img img{
+    width: 100%;
+    display: block;
+}
+.culture .description{
+    max-width: 513px;
+}
+.culture .description h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture .description p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture .description a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.power{
+    background-color: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.power .for_img{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.power .for_img img{
+    width:100%;
+    display:block;
+}
+.power .description{
+    max-width: 530px;
+}
+.power .description h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.power .description p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 39px;
+}
+.power .description a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
