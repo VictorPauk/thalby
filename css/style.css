@@ -502,13 +502,30 @@ header .logo{
 }
 .owl-nav .owl-prev{
     position: absolute;
-    left: -46px;
+    left: -76px;
     top:35%;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -76px;
+    top: 35%;
 }
 .owl-nav .owl-prev:before{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f053";
+    font-size: 50px;
+    color: black;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    right: -76px;
+    top: 35%;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
     font-size: 50px;
     color: black;
 }
@@ -609,6 +626,36 @@ header .logo{
      text-align: center;
      color: #FFFFFF;
  }
+.ui-dialog .ui-dialog-content{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.ui-dialog .ui-dialog-content .form_dialog{
+    max-width: 250px;
+}
+.ui-dialog .ui-dialog-content .form_dialog .button{
+    max-width: 70px;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    padding:7px 10px;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.ui-dialog .ui-dialog-content .form_dialog .search{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 23px;
+    text-align: center;
+}
+.ui-dialog .ui-dialog-content .form_dialog input{
+    margin-top: 5px;
+}
 
 
 

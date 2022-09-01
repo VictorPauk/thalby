@@ -11,10 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
+<div id="dialog" title="Search Products">
+    <div class="container_form">
+        <form class="form_dialog" action="#" method="post">
+            <div class="search">
+                <label for="search">Enter your product name
+                <input type="text" name="search" id="search">
+                </label>
+            </div>
+            <a class="button" href="#" target="_blank">Find</a>
+        </form>
+    </div>
+    </div>
+
 <header>
     <div class="container d-flex justify-between align-center">
         <nav>
@@ -43,8 +59,8 @@
                 </a>
             </li>
             <li>
-                <a href="#" title="search">
-                    <img src="images/search.svg" alt="search">
+                <a href="#" title="search ">
+                    <img src="images/search.svg" alt="search" id="opener">
                 </a>
             </li>
             <li>
@@ -358,7 +374,9 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
-</body>
+
 </html>
